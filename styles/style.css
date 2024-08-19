@@ -1,0 +1,440 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.head-1 {
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+
+.flex {
+    display: flex;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.head-2 {
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    background-color: greenyellow;
+
+}
+
+.spot {
+    background-color: rgb(36, 34, 34);
+
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+
+    align-items: center;
+    color: #fff;
+
+}
+
+.search a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.search img {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50px;
+}
+
+.bg-2 {
+    background-color: rgb(36, 34, 34);
+}
+
+.libary {
+    background-color: rgb(36, 34, 34);
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+
+.lib {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #6d6d6d;
+    align-items: center;
+
+}
+
+.lib-1:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.lib-1 img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.lib-1 h3 {
+    color: #cabebe;
+    font-size: 16px;
+}
+
+.lib-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.plus:hover {
+
+    background-color: #6d6d6d;
+    /* width: 40px; */
+    /* height: 40px; */
+    color: white;
+
+}
+
+.playlist {
+    background-color: #474242;
+
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.create {
+    padding: 10px;
+
+}
+
+.btn-2 {
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.legal {
+    width: 100%;
+    display: flex;
+    color: #cabebe;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.btn-3 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 10px;
+    color: black;
+    background-color: white;
+    /* padding: 0px 10px 0px 10px; */
+    border: 1px solid white;
+    /* padding: 5px 20px 0px 15px; */
+    padding: 5px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-3:hover {
+    font-size: 15px;
+}
+
+.btn-3 img {
+    width: 20px;
+    height: 20px;
+}
+
+nav {
+    /* background-color: blueviolet; */
+    /* position: fixed; */
+    z-index: 1;
+    /* width: 100%; */
+    height: 50px;
+
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    /* paddi    ng: 5px 30px 10px 30px; */
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+    background-color: black;
+
+}
+
+.sign {
+    display: flex;
+    gap: 30px;
+}
+
+.sign h3 {
+    font-size: 16px;
+    color: #9f9a9a;
+    cursor: pointer;
+}
+
+.sih:hover {
+    /* font-size: 17px; */
+    color: #fff;
+}
+
+.btn {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f3ebeb;
+    font-size: 17px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Popular {
+    background-color: rgb(36, 34, 34);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    /* height: 100vh; */
+    right: 0;
+    width: 98%;
+}
+.m-b{
+    margin-bottom: 30px;
+}
+.Popular-1{
+    display: flex;justify-content: space-between;
+}
+.Popular h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Popular p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.artist-set {
+    display: flex;
+    /* padding: 10px; */
+    width: 100%;
+    gap: 10px;
+}
+
+.artist {
+    width: 16%;
+    line-height: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.win {
+    margin-top: -20px;
+}
+
+.artist:hover {
+    background-color: rgba(105, 99, 99, 0.163);
+
+    cursor: pointer;
+    transition: 2s ease-in-out;
+
+}
+
+.rema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rema img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.artist h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.artist p {
+    margin-top: -15px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+.albums img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+
+    margin-top: 50px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.foot-1 {
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.foot-2 {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.foot-2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2f2c2c;
+}
+
+.foot-2 img:hover {
+    background-color: #6d6d6d;
+}
+
+.company {
+    width: 25%;
+}
+
+.company h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    padding: 0px 30px;
+}
+
+.company a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #ded1d1;
+    line-height: 1.9em;
+    font-size: 15px;
+}
+
+.footer-2 p {
+    padding: 30px;
+    color: #c7c5c5;
+    font-size: 14px;
+}
+
+.btn-4 {
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.last-footer {
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;width: 100%;
+    bottom: 0;
+    position: fixed;
+    line-height: 0%;
+    margin-top: 20px;
+    color: white;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: none;
+    transition: 2s ease-in-out;
+   
+}
+.play img{
+    width: 100px;
+    height: 100px;
+
+}
+.artist:hover .play{
+    display: block;
+    transition: 2s ease-in-out;
+   
+
+}
